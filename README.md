@@ -4,6 +4,10 @@
 
 - java -cp target/cloud-load-test-1.0-SNAPSHOT.jar::./target/dependency/* -Duser=user -Dpassword=password -Dkeyspace=keyspace -DpathToCreds=/secure-connect-bundle.zip -Ddbwriter=false ConnectDatabaseTest
 
+```
+java -cp target/cloud-load-test-1.0-SNAPSHOT.jar:./target/dependency/* ConnectDatabaseTest
+```
+
 ## Variables Consumed
 * user - user for the CaaS database
 * password - password for the CaaS database
